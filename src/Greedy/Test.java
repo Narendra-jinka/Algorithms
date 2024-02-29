@@ -4,7 +4,7 @@ import java.util.*;
 public class Test {
 
 	public static void main(String[] args) {
-        List<ArrayList<Integer>> items = new ArrayList<>();
+        /*List<ArrayList<Integer>> items = new ArrayList<>();
 
         // Adding items
         items.add(new ArrayList<>(Arrays.asList(25, 18)));
@@ -22,7 +22,13 @@ public class Test {
         System.out.println("Order after sorting based on correct profit-to-weight ratio:");
         for (ArrayList<Integer> item : items) {
             System.out.println("Profit: " + item.get(0) + ", Weight: " + item.get(1));
-        }
+        }*/
+		
+		char[] order=new char[7];
+		for(char c:order) {
+			System.out.print(c+" ");
+		}
+		
     }
 
 }
